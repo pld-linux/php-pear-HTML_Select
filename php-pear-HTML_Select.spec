@@ -1,6 +1,8 @@
 %include	/usr/lib/rpm/macros.php
 %define		_class		HTML
 %define		_subclass	Select
+%define		_status		stable
+
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - small classes to handle common <select> lists
 Summary(pl):	%{_pearname} - ma³e klasy do obs³ugi list <select>
@@ -22,11 +24,15 @@ Provides <select>lists for:
  - UK counties
  - US States
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Dostarcza listy <select> do pytañ o:
  - kraj
  - kraje UK
  - stany US
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
