@@ -4,7 +4,7 @@
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 Summary:	%{_pearname} - class for generating HTML form select elements
-Summary(pl):	%{_pearname} - klasa do generowania elemntów select formularzy HTML
+Summary(pl):	%{_pearname} - klasa do generowania elementów select formularzy HTML
 Name:		php-pear-%{_pearname}
 Version:	1.2
 Release:	1
