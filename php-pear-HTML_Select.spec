@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          HTML
-%define         _subclass       Select
+%define		_class		HTML
+%define		_subclass	Select
 %define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}
 
