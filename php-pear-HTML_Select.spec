@@ -23,7 +23,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 HTML_Select provides an OOP way of generating HTML form select
 elements.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 HTML_Select dostarcza zorientowanej obiektowo metody tworzenia
