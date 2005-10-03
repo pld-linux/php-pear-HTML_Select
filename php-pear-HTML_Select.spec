@@ -8,7 +8,7 @@ Summary:	%{_pearname} - class for generating HTML form select elements
 Summary(pl):	%{_pearname} - klasa do generowania elementów select formularzy HTML
 Name:		php-pear-%{_pearname}
 Version:	1.2.1
-Release:	3.1
+Release:	3.2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
@@ -17,6 +17,7 @@ Patch:		%{name}-case.patch
 URL:		http://pear.php.net/package/HTML_Select/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
+Requires:	php-pear-HTML_Common >= 1.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
