@@ -15,6 +15,7 @@ Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 # Source0-md5:	9c9b84cc3b1595f6000ef1845829dae8
 Patch:		%{name}-case.patch
 URL:		http://pear.php.net/package/HTML_Select/
+BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
 Requires:	php-pear-HTML_Common >= 1.1
