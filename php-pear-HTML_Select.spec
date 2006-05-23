@@ -17,6 +17,7 @@ Patch:		%{name}-case.patch
 URL:		http://pear.php.net/package/HTML_Select/
 BuildRequires:	php-pear-PEAR
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
+BuildRequires:	rpmbuild(macros) >= 1.300
 Requires:	php-pear
 Requires:	php-pear-HTML_Common >= 1.1
 BuildArch:	noarch
