@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - class for generating HTML form select elements
-Summary(pl):	%{_pearname} - klasa do generowania elementów select formularzy HTML
+Summary(pl.UTF-8):   %{_pearname} - klasa do generowania elementÃ³w select formularzy HTML
 Name:		php-pear-%{_pearname}
 Version:	1.2.1
 Release:	5
@@ -29,9 +29,9 @@ elements.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
+%description -l pl.UTF-8
 HTML_Select dostarcza zorientowanej obiektowo metody tworzenia
-elementów select formularzy HTML.
+elementÃ³w select formularzy HTML.
 
 Ta klasa ma w PEAR status: %{_status}.
 
