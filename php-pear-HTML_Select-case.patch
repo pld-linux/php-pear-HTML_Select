@@ -1,29 +1,11 @@
---- ./Select.php.org	Thu Feb 26 15:15:04 2004
-+++ ./Select.php	Mon Aug  9 14:57:26 2004
-@@ -157,7 +157,7 @@
-     function loadArray($arr, $values=null)
+--- HTML_Select-1.3.0/usr/share/pear/HTML/Select.php~	2010-08-19 13:44:58.000000000 +0300
++++ HTML_Select-1.3.0/usr/share/pear/HTML/Select.php	2010-08-19 13:45:45.892578488 +0300
+@@ -205,7 +205,7 @@
+     function loadArray($arr, $values = null)
      {
          if (!is_array($arr)) {
--            return new PEAR_ERROR('First argument to HTML_Select::loadArray is not a valid array');
-+            return new PEAR_Error('First argument to HTML_Select::loadArray is not a valid array');
+-            return new PEAR_ERROR(
++            return new PEAR_Error(
+                 'First argument to HTML_Select::loadArray is not a valid array'
+             );
          }
-         if (isset($values)) {
-             $this->setSelectedValues($values);
-@@ -182,7 +182,7 @@
-     function loadValueArray($arr, $values = null)
-     {
-         if (!is_array($arr)) {
--            return new PEAR_ERROR("First argument to HTML_Select::loadArray is not a valid array");
-+            return new PEAR_Error("First argument to HTML_Select::loadArray is not a valid array");
-         }
-         if (isset($values)) {
-             $this->setSelectedValues($values);
-@@ -213,7 +213,7 @@
-         
-         if (!is_object($result) || (strtolower(get_class($result)) != "db_result" && 
-             is_subclass_of($result, "db_result"))) {
--            return new PEAR_ERROR("First argument to HTML_Select::loadDbResult is not a valid DB_result");
-+            return new PEAR_Error("First argument to HTML_Select::loadDbResult is not a valid DB_result");
-         }
-          if (isset($values)) {
-             $this->setSelectedValues($values);
