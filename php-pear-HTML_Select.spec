@@ -1,6 +1,5 @@
 %define		status		stable
 %define		pearname	HTML_Select
-%include	/usr/lib/rpm/macros.php
 Summary:	%{pearname} - class for generating HTML form select elements
 Summary(pl.UTF-8):	%{pearname} - klasa do generowania elementów select formularzy HTML
 Name:		php-pear-%{pearname}
