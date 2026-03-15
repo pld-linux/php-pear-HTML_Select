@@ -4,7 +4,7 @@ Summary:	%{pearname} - class for generating HTML form select elements
 Summary(pl.UTF-8):	%{pearname} - klasa do generowania elementów select formularzy HTML
 Name:		php-pear-%{pearname}
 Version:	1.3.1
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{pearname}-%{version}.tgz
